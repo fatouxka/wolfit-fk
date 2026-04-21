@@ -1,0 +1,292 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-8.4.2, pluggy-1.5.0 -- /opt/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/fatouka/wolfit
+configfile: pyproject.toml
+plugins: cov-7.1.0, anyio-4.10.0
+collecting ... collected 108 items
+
+tests/test_100_percent.py::test_helpers_line_36 PASSED                   [  0%]
+tests/test_100_percent.py::test_models_line_7 PASSED                     [  1%]
+tests/test_100_percent.py::test_models_line_61 PASSED                    [  2%]
+tests/test_100_percent.py::test_routes_lines_42_50 FAILED                [  3%]
+tests/test_100_percent.py::test_routes_lines_66_69 PASSED                [  4%]
+tests/test_100_percent.py::test_routes_line_20 PASSED                    [  5%]
+tests/test_100_percent.py::test_routes_line_39 PASSED                    [  6%]
+tests/test_100_percent_fixed.py::test_helpers_line_36 PASSED             [  7%]
+tests/test_100_percent_fixed.py::test_models_line_7 PASSED               [  8%]
+tests/test_100_percent_fixed.py::test_models_line_61 PASSED              [  9%]
+tests/test_100_percent_fixed.py::test_routes_lines_42_50 FAILED          [ 10%]
+tests/test_100_percent_fixed.py::test_routes_lines_66_69 PASSED          [ 11%]
+tests/test_100_percent_fixed.py::test_routes_line_20 PASSED              [ 12%]
+tests/test_100_percent_fixed.py::test_routes_line_39 PASSED              [ 12%]
+tests/test_correct_registration.py::test_registration_correct_fields PASSED [ 13%]
+tests/test_correct_registration.py::test_routes_lines_42_50_correct PASSED [ 14%]
+tests/test_create_post.py::test_create_post_requires_login PASSED        [ 15%]
+tests/test_create_post.py::test_create_post_page_loads PASSED            [ 16%]
+tests/test_final_95.py::test_routes_lines_42_50 FAILED                   [ 17%]
+tests/test_final_95.py::test_routes_lines_66_69 PASSED                   [ 18%]
+tests/test_final_95.py::test_helpers_line_36 PASSED                      [ 19%]
+tests/test_final_95.py::test_models_line_7 PASSED                        [ 20%]
+tests/test_final_95.py::test_models_line_61 PASSED                       [ 21%]
+tests/test_final_coverage.py::test_logout_route PASSED                   [ 22%]
+tests/test_final_coverage.py::test_register_existing_user PASSED         [ 23%]
+tests/test_final_coverage.py::test_login_invalid_credentials PASSED      [ 24%]
+tests/test_final_push.py::test_full_registration_and_post_flow PASSED    [ 25%]
+tests/test_final_push.py::test_logout_functionality PASSED               [ 25%]
+tests/test_final_working.py::test_helpers_line_36 PASSED                 [ 26%]
+tests/test_final_working.py::test_models_line_7 PASSED                   [ 27%]
+tests/test_final_working.py::test_routes_line_20 PASSED                  [ 28%]
+tests/test_final_working.py::test_routes_line_39 PASSED                  [ 29%]
+tests/test_final_working.py::test_routes_lines_47_50 PASSED              [ 30%]
+tests/test_final_working.py::test_routes_lines_67_70 PASSED              [ 31%]
+tests/test_forms.py::test_login_form PASSED                              [ 32%]
+tests/test_forms.py::test_login_form_validation PASSED                   [ 33%]
+tests/test_forms_coverage.py::test_registration_form_password_mismatch PASSED [ 34%]
+tests/test_forms_coverage.py::test_login_form_empty_fields PASSED        [ 35%]
+tests/test_forms_coverage.py::test_post_form_validation PASSED           [ 36%]
+tests/test_helpers.py::test_less_than_day_just_now PASSED                [ 37%]
+tests/test_helpers.py::test_less_than_day_minute PASSED                  [ 37%]
+tests/test_helpers.py::test_less_than_day_minutes PASSED                 [ 38%]
+tests/test_helpers.py::test_less_than_day_hour PASSED                    [ 39%]
+tests/test_helpers.py::test_less_than_day_hours PASSED                   [ 40%]
+tests/test_helpers.py::test_pretty_date_int_timestamp PASSED             [ 41%]
+tests/test_helpers.py::test_pretty_date_datetime PASSED                  [ 42%]
+tests/test_helpers.py::test_pretty_date_future PASSED                    [ 43%]
+tests/test_helpers.py::test_pretty_date_invalid PASSED                   [ 44%]
+tests/test_helpers.py::test_pretty_date_seconds_ago PASSED               [ 45%]
+tests/test_helpers.py::test_pretty_date_minutes_ago PASSED               [ 46%]
+tests/test_helpers.py::test_pretty_date_hours_ago PASSED                 [ 47%]
+tests/test_helpers.py::test_pretty_date_days_ago PASSED                  [ 48%]
+tests/test_helpers.py::test_pretty_date_weeks_ago PASSED                 [ 49%]
+tests/test_helpers.py::test_pretty_date_months_ago PASSED                [ 50%]
+tests/test_helpers.py::test_pretty_date_years_ago PASSED                 [ 50%]
+tests/test_helpers.py::test_pretty_date_one_week_ago PASSED              [ 51%]
+tests/test_helpers.py::test_pretty_date_one_month_ago PASSED             [ 52%]
+tests/test_helpers.py::test_pretty_date_one_year_ago PASSED              [ 53%]
+tests/test_helpers.py::test_pretty_date_invalid_input PASSED             [ 54%]
+tests/test_helpers.py::test_pretty_date_with_none_timestamp PASSED       [ 55%]
+tests/test_helpers.py::test_pretty_date_with_string_timestamp PASSED     [ 56%]
+tests/test_helpers_coverage.py::test_pretty_date_future_date PASSED      [ 57%]
+tests/test_helpers_coverage.py::test_less_than_day_boundary PASSED       [ 58%]
+tests/test_init.py::test_app_debug_mode PASSED                           [ 59%]
+tests/test_init.py::test_login_manager_config PASSED                     [ 60%]
+tests/test_init_coverage.py::test_login_manager_config PASSED            [ 61%]
+tests/test_init_coverage.py::test_user_loader_function PASSED            [ 62%]
+tests/test_model_relationships.py::test_user_posts_relationship PASSED   [ 62%]
+tests/test_model_relationships.py::test_post_author_relationship PASSED  [ 63%]
+tests/test_model_relationships.py::test_category_posts_relationship PASSED [ 64%]
+tests/test_model_relationships.py::test_post_category_relationship PASSED [ 65%]
+tests/test_model_relationships.py::test_cascade_delete PASSED            [ 66%]
+tests/test_model_repr.py::test_user_repr_method PASSED                   [ 67%]
+tests/test_model_repr.py::test_post_repr_method PASSED                   [ 68%]
+tests/test_model_repr.py::test_category_repr_method PASSED               [ 69%]
+tests/test_models.py::test_user_creation PASSED                          [ 70%]
+tests/test_models.py::test_post_creation PASSED                          [ 71%]
+tests/test_models.py::test_category_creation PASSED                      [ 72%]
+tests/test_models.py::test_user_repr_method PASSED                       [ 73%]
+tests/test_models.py::test_post_repr_method PASSED                       [ 74%]
+tests/test_models.py::test_category_repr_method PASSED                   [ 75%]
+tests/test_pagination.py::test_pagination_exists PASSED                  [ 75%]
+tests/test_routes.py::test_homepage PASSED                               [ 76%]
+tests/test_routes.py::test_login_page PASSED                             [ 77%]
+tests/test_routes.py::test_register_page PASSED                          [ 78%]
+tests/test_routes.py::test_create_post_redirects PASSED                  [ 79%]
+tests/test_routes.py::test_post_page PASSED                              [ 80%]
+tests/test_routes_coverage.py::test_index_pagination_invalid_page PASSED [ 81%]
+tests/test_routes_coverage.py::test_create_post_redirect_when_not_logged_in PASSED [ 82%]
+tests/test_routes_coverage.py::test_upvote_invalid_post_returns_404 PASSED [ 83%]
+tests/test_routes_coverage.py::test_downvote_invalid_post_returns_404 PASSED [ 84%]
+tests/test_routes_coverage.py::test_post_nonexistent_returns_404 PASSED  [ 85%]
+tests/test_routes_coverage.py::test_user_nonexistent_returns_404 PASSED  [ 86%]
+tests/test_routes_coverage.py::test_upvote_with_referer_header PASSED    [ 87%]
+tests/test_routes_coverage.py::test_downvote_with_referer_header PASSED  [ 87%]
+tests/test_routes_missing.py::test_index_page_out_of_range PASSED        [ 88%]
+tests/test_routes_missing.py::test_create_post_redirects_to_login PASSED [ 89%]
+tests/test_routes_missing.py::test_upvote_nonexistent_post PASSED        [ 90%]
+tests/test_routes_missing.py::test_downvote_nonexistent_post PASSED      [ 91%]
+tests/test_routes_missing.py::test_post_not_found PASSED                 [ 92%]
+tests/test_routes_missing.py::test_user_not_found PASSED                 [ 93%]
+tests/test_routes_missing.py::test_upvote_with_referer PASSED            [ 94%]
+tests/test_routes_missing.py::test_downvote_with_referer PASSED          [ 95%]
+tests/test_usernames.py::test_username_display_in_posts PASSED           [ 96%]
+tests/test_usernames.py::test_user_profile_link_exists PASSED            [ 97%]
+tests/test_voting.py::test_upvote_route_exists PASSED                    [ 98%]
+tests/test_voting.py::test_downvote_route_exists PASSED                  [ 99%]
+tests/test_voting.py::test_upvote_requires_login PASSED                  [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_routes_lines_42_50 ____________________________
+
+test_client = <FlaskClient <Flask 'app'>>
+init_database = <SQLAlchemy sqlite:////Users/fatouka/wolfit/instance/app.db>
+
+    def test_routes_lines_42_50(test_client, init_database):
+        """Cover routes.py lines 42-50 - registration success"""
+        response = test_client.post('/register', data={
+            'username': 'newuser100',
+            'email': 'new100@example.com',
+            'password': 'testpass123',
+            'confirm_password': 'testpass123'
+        }, follow_redirects=True)
+        assert response.status_code == 200
+    
+        # Verify user was created
+        user = User.query.filter_by(username='newuser100').first()
+>       assert user is not None
+E       assert None is not None
+
+tests/test_100_percent.py:40: AssertionError
+___________________________ test_routes_lines_42_50 ____________________________
+
+test_client = <FlaskClient <Flask 'app'>>
+init_database = <SQLAlchemy sqlite:////Users/fatouka/wolfit/instance/app.db>
+
+    def test_routes_lines_42_50(test_client, init_database):
+        """Cover routes.py lines 42-50 - registration success"""
+        # Use a unique username to avoid conflicts
+        import time
+        unique_username = f'newuser_{int(time.time())}'
+    
+        response = test_client.post('/register', data={
+            'username': unique_username,
+            'email': f'{unique_username}@example.com',
+            'password': 'testpass123',
+            'confirm_password': 'testpass123'
+        }, follow_redirects=True)
+        assert response.status_code == 200
+    
+        # Verify user was created
+        user = User.query.filter_by(username=unique_username).first()
+>       assert user is not None
+E       assert None is not None
+
+tests/test_100_percent_fixed.py:43: AssertionError
+___________________________ test_routes_lines_42_50 ____________________________
+
+test_client = <FlaskClient <Flask 'app'>>
+init_database = <SQLAlchemy sqlite:////Users/fatouka/wolfit/instance/app.db>
+
+    def test_routes_lines_42_50(test_client, init_database):
+        """Cover lines 42-50: user creation, db add, commit, flash, redirect"""
+        # Use a unique username
+        response = test_client.post('/register', data={
+            'username': 'testuser42',
+            'email': 'test42@example.com',
+            'password': 'testpass123',
+            'confirm_password': 'testpass123'
+        }, follow_redirects=True)
+        assert response.status_code == 200
+    
+        # Verify the user was created (covers lines 42-50)
+        user = User.query.filter_by(username='testuser42').first()
+>       assert user is not None
+E       assert None is not None
+
+tests/test_final_95.py:19: AssertionError
+=============================== warnings summary ===============================
+tests/test_100_percent.py: 3 warnings
+tests/test_100_percent_fixed.py: 3 warnings
+tests/test_final_95.py: 2 warnings
+tests/test_final_working.py: 2 warnings
+tests/test_helpers.py: 19 warnings
+tests/test_helpers_coverage.py: 1 warning
+  /Users/fatouka/wolfit/app/helpers.py:18: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = datetime.utcnow()
+
+tests/test_100_percent.py: 13 warnings
+tests/test_100_percent_fixed.py: 13 warnings
+tests/test_correct_registration.py: 6 warnings
+tests/test_create_post.py: 4 warnings
+tests/test_final_95.py: 9 warnings
+tests/test_final_coverage.py: 6 warnings
+tests/test_final_push.py: 4 warnings
+tests/test_final_working.py: 11 warnings
+tests/test_forms_coverage.py: 6 warnings
+tests/test_init_coverage.py: 4 warnings
+tests/test_model_relationships.py: 12 warnings
+tests/test_model_repr.py: 6 warnings
+tests/test_models.py: 12 warnings
+tests/test_pagination.py: 2 warnings
+tests/test_routes.py: 10 warnings
+tests/test_routes_coverage.py: 16 warnings
+tests/test_routes_missing.py: 16 warnings
+tests/test_usernames.py: 4 warnings
+tests/test_voting.py: 6 warnings
+  /opt/anaconda3/lib/python3.13/site-packages/sqlalchemy/sql/schema.py:3624: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+
+tests/test_helpers.py::test_pretty_date_int_timestamp
+  /Users/fatouka/wolfit/tests/test_helpers.py:32: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = datetime.utcnow()
+
+tests/test_helpers.py::test_pretty_date_datetime
+  /Users/fatouka/wolfit/tests/test_helpers.py:38: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = datetime.utcnow()
+
+tests/test_helpers.py::test_pretty_date_future
+  /Users/fatouka/wolfit/tests/test_helpers.py:43: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    future = datetime.utcnow() + timedelta(hours=1)
+
+tests/test_helpers.py::test_pretty_date_seconds_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:52: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(seconds=30)
+
+tests/test_helpers.py::test_pretty_date_minutes_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:57: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(minutes=5)
+
+tests/test_helpers.py::test_pretty_date_hours_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:62: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(hours=3)
+
+tests/test_helpers.py::test_pretty_date_days_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:67: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=2)
+
+tests/test_helpers.py::test_pretty_date_weeks_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:72: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=14)
+
+tests/test_helpers.py::test_pretty_date_months_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=60)
+
+tests/test_helpers.py::test_pretty_date_years_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:82: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=730)
+
+tests/test_helpers.py::test_pretty_date_one_week_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:87: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=7)
+
+tests/test_helpers.py::test_pretty_date_one_month_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:92: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=30)
+
+tests/test_helpers.py::test_pretty_date_one_year_ago
+  /Users/fatouka/wolfit/tests/test_helpers.py:97: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    past = datetime.utcnow() - timedelta(days=365)
+
+tests/test_init_coverage.py::test_user_loader_function
+tests/test_init_coverage.py::test_user_loader_function
+  /Users/fatouka/wolfit/app/__init__.py:25: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    return User.query.get(int(user_id))
+
+tests/test_model_relationships.py::test_cascade_delete
+  /Users/fatouka/wolfit/tests/test_model_relationships.py:35: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    deleted_user = User.query.get(user.id)
+
+tests/test_routes.py: 1 warning
+tests/test_routes_coverage.py: 5 warnings
+tests/test_routes_missing.py: 5 warnings
+tests/test_voting.py: 2 warnings
+  /opt/anaconda3/lib/python3.13/site-packages/flask_sqlalchemy/query.py:30: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    rv = self.get(ident)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_100_percent.py::test_routes_lines_42_50 - assert None is no...
+FAILED tests/test_100_percent_fixed.py::test_routes_lines_42_50 - assert None...
+FAILED tests/test_final_95.py::test_routes_lines_42_50 - assert None is not None
+================= 3 failed, 105 passed, 219 warnings in 7.45s ==================
